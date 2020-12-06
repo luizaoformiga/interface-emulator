@@ -19,6 +19,9 @@
         padding-bottom: 10px;
         margin-bottom: 0%;
     }
+    .input h2 {
+        font-size: 30px;
+    }
     .input input {
         padding: 15px 9px 15px 9px;
     }
