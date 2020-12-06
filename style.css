@@ -1,0 +1,152 @@
+/*reset css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/*formatando o fundo*/
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url("./img/fundo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+
+/*formatando o texto*/
+
+.menu {
+    font-size: 30px;
+    color: azure;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
+}
+
+
+/*formatando login*/
+
+.input {
+    text-align: center;
+    background-color: azure;
+    padding: 50px;
+    border-radius: 0.3rem;
+    margin: 20px;
+}
+
+.input h2 {
+    font-size: 40px;
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.input p {
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+
+.input .option {
+    font-size: 25px;
+    color: rgb(92, 92, 84);
+    margin: 25px;
+}
+
+.input input {
+    padding: 15px 150px 15px 15px;
+    font-size: 20px;
+    margin: 6px;
+    background-color: azure;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+.input button {
+    margin-top: 15px;
+    padding: 15px 168px 15px 168px;
+    color: azure;
+    background-color: rgb(0, 195, 255);
+    font-size: 20px;
+    border-radius: 0.3rem;
+}
+
+a:hover {
+    color: brown;
+}
+
+
+/*divisor*/
+
+.divisor {
+    text-align: center;
+    background-color: black;
+    color: azure;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+
+
+/*caroussel*/
+
+.carrosel-filmes {
+    background-color: black;
+}
+
+.owl-prev {
+    padding: 30px;
+}
+
+.box-filme {
+    width: 700px;
+    height: 300px;
+}
+
+
+/* ajusto os botões no tamanho que eu quero */
+
+.owl-prev,
+.owl-next {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: none !important;
+}
+
+
+/* crio os pseudo-elementos */
+
+.owl-prev::before,
+.owl-next::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 195, 255);
+    border-radius: 50% !important;
+    line-height: 50px;
+}
+
+
+/* hover para mudar de cor */
+
+.owl-prev:hover::before,
+.owl-next:hover::before {
+    background: rgb(226, 231, 231);
+}
+
+
+/* crio as setas e centralizo */
+
+.owl-prev::after,
+.owl-next::after {
+    content: "";
+    width: 18px;
+}
