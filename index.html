@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style css-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <!--extension ow-carousel of jQuery-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/responsividade.css">
     <link rel="shortcut icon" href="img/imagem-favicon.jpg" type="image/x-icon">
     <title>Games Emulator</title>
 </head>
@@ -20,18 +22,27 @@
         </div>
         <div class="input">
             <h2>Start right now!</h2>
-            <input type="text" placeholder="Email">
+
+            <div class="input-field">
+                <input id="email" type="text" class="validate">
+                <label for="email">E-mail</label>
+            </div>
             <br>
-            <input type="text" placeholder="Password">
+            <div class="input-field">
+                <input id="email" type="text" class="validate">
+                <label for="email">Password</label>
+            </div>
             <br>
+
             <button><strong>Enter</strong></button>
             <p>Don't have an account? <a href="#">Register!</a></p>
             <div class="option">or</div>
             <div class="get-app">
                 <p>Get the app</p>
                 <br>
-                <a href="#"><img src="./img/apple.png" alt="foto-apple" width="170" height="55"></a>
-                <a href="#"><img src="./img/googleplay.png" alt="foto-googleplay" width="170" height="55"></a>
+                <a href="#"><img src="./img/png-transparent-apple-logo-alluring-apple.png" alt="foto-apple" width="90" height="80"></a>
+                <a href="#"><img src="./img/google-angle-logo.png" alt="foto-googleplay" width="90" height="80"></a>
+                <a href="#"><img src="./img/facebook-logo.png" alt="foto-googleplay" width="90" height="80"></a>
             </div>
         </div>
         <!--Information-->
@@ -74,9 +85,6 @@
             </div>
 
         </div>
-
-
-
         <script src="./js/jquery-3.5.1.min.js"></script>
         <script src="./js/owl.carousel.min.js"></script>
         <script src="main.js"></script>
