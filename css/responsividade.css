@@ -22,11 +22,11 @@
         font-size: 36px;
     }
     .input input {
-        padding: 15px 9px 15px 9px;
+        width: 100%;
     }
     .input button {
         align-items: center;
-        padding: 15px 75px 15px 75px;
+        padding: 15px 85px 15px 80px;
     }
     .input-field {
         align-items: center;
